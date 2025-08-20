@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+:root {
+  --font-rock-salt: 'Rock Salt', cursive;
+}
+
+body {
+  font-family: inherit;
+}
