@@ -1,9 +1,14 @@
 import type { Metadata } from "next";
-import { Geist } from "next/font/google";
+import { Geist, Rock_Salt } from "next/font/google";
 import "./globals.css";
 
 const geist = Geist({
   subsets: ["latin"],
+});
+
+const rockSalt = Rock_Salt({
+  subsets: ["latin"],
+  weight: "400",
 });
 
 export const metadata: Metadata = {
