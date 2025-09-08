@@ -113,7 +113,7 @@ export default function Home() {
           <div className="absolute top-1/2 left-1/2 w-40 h-40 bg-red-800 rounded-full opacity-10 animate-ping"></div>
         </div>
 
-        <div className="max-w-2xl mx-auto relative z-10 flex items-center justify-center min-h-screen">
+        <div className="max-w-2xl mx-auto relative z-10 flex items-center justify-center min-h-screen pb-16 sm:pb-8">
           {/* Thank you card */}
           <div className="bg-black/90 backdrop-blur-sm rounded-2xl shadow-2xl border-4 border-green-500 p-4 sm:p-6 md:p-8 text-center">
             <div className="text-4xl sm:text-6xl mb-4 sm:mb-6">🎉</div>
@@ -157,7 +157,7 @@ export default function Home() {
         <div className="absolute top-1/2 left-1/2 w-40 h-40 bg-red-800 rounded-full opacity-10 animate-ping"></div>
       </div>
 
-      <div className="max-w-4xl mx-auto relative z-10">
+      <div className="max-w-4xl mx-auto relative z-10 pb-16 sm:pb-8">
                 {/* Vintage Concert Poster Header */}
         <header className="text-center mb-8 sm:mb-12 pt-12 sm:pt-16">
           {/* Main title with vintage concert poster styling */}
